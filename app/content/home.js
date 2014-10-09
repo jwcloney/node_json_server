@@ -10,7 +10,7 @@ $(function(){
         });
 
         //retrieve server data and init page
-        $.getJSON("/albums.json",function(d){
+        $.getJSON("/ver1/albums.json",function(d){
             console.log("james here tdata " + tdata);
             console.log("james here d.data " + d.data);
             console
